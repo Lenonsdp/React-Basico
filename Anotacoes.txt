@@ -1,0 +1,21 @@
+
+// Inicio
+ yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli -D
+ yarn add react react-dom
+ yarn add babel-loader -D
+
+ reiniciar servidor a cada salvamento
+
+ yarn add webpack-dev-server -D
+ o dev no script do package.json tem que ficar == "webpack-dev-server --mode development"
+
+ Problema ao fazer o build do projeto, solução foi criar a .babelrc espelhando o babel.config.js
+
+yarn add style-loader css-loader -D
+style loader vai carregar o css, e o css loader para importação de outros arquivos exemplo url(./png)
+
+yarn add file-loader
+importaçãode imagens
+
+yarn add @babel/plugin-proposal-class-properties -D
+armazenar o state da classe
