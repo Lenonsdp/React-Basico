@@ -11,7 +11,7 @@ class TechList  extends Component {
         ]
     };
 
-    // aeronFunction para acessar o this
+    // Arrow Function para acessar o this
     handleInputChange = e => {
         this.setState({ newTech: e.target.value });
     }
