@@ -19,3 +19,6 @@ importaçãode imagens
 
 yarn add @babel/plugin-proposal-class-properties -D
 armazenar o state da classe
+
+yarn add prop-types
+prop types e default props componentes
