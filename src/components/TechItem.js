@@ -1,5 +1,6 @@
 import React from 'react';
 
+//Lib para definir propo-types default caso o dev esqueça
 import PropTypes from 'prop-types';
 
 function TechItem({ tech, onDelete }) {
@@ -15,7 +16,7 @@ TechItem.defaultProps = {
     tech: 'Oculto'
 };
 
-TechItem.PropTypes = {
+TechItem.propTypes = {
     tech: PropTypes.string.isRequired,
     onDelete: PropTypes.func.isRequired
 };
